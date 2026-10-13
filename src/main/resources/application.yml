@@ -26,5 +26,5 @@ spring:
 
   flyway:
     enabled: true
-    locations: classpath:database/migration
+    locations: classpath:db/migration
     validate-on-migrate: true
